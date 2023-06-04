@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+        font-family: 'Montserrat', sans-serif;
+      background-image:url('https://gifdb.com/images/file/universe-constellation-dots-mjb8yn5lh6zgm02u.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  header {
+    background-color: #262626;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  header h1 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+  }
+  
+  nav a:hover {
+    background-color: #7e7c7c;
+    border-radius: 5px;
+  }
+  
+  main {
+    padding: 50px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .game-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .game-card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .game-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .game-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .game-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .game-card p {
+    font-size: 14px;
+  }
+  
+  footer {
+    background-color: #1a1a1a;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  
